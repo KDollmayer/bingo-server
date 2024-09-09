@@ -1,0 +1,68 @@
+import { CreateBoardItem } from "./types/boardItems";
+import dotenv from "dotenv";
+dotenv.config();
+export const numTake = parseInt(process.env.BOARD_ITEMS || "25");
+
+export const boardItemsData: CreateBoardItem[] = [
+  { content: '"you rang"' },
+  { content: '"Det är ronpågång"' },
+  { content: '"saknar motstycke i modern tid"' },
+  { content: "lineas utbrändhet" },
+  { content: '"säg att det inte är så"' },
+  { content: "Lars Arne Häggvik Druid" },
+  { content: "Anders Ygemans Musikskola" },
+  { content: '"enligt mig"' },
+  { content: "egenkligen" },
+  { content: '"diagnos: kille"' },
+  { content: '"racka vägen till rix"' },
+  { content: '"är det den stora...?"' },
+  { content: '"förlåååååååt"' },
+  { content: '"det är en ynnest att ha med dig att göra"' },
+  { content: '"fö-rebannad"' },
+  { content: '"är det och ska det vara lagligt att..."' },
+  { content: '"det går inte att öppna en tidning utan att..."' },
+  { content: "hekashepes" },
+  { content: '"tonen"' },
+  { content: '"jag är limmad"' },
+  { content: '"vi har hela listan"' },
+  { content: '"på ett sätt"' },
+  {
+    content:
+      '"man kan ju sitta med dig hur länge som helst men tiden rinner iväg"',
+  },
+  { content: '"you nailed it man, you nailed it son"' },
+  { content: "David har försovit sig" },
+  { content: '"Det här är mitt Sverige"' },
+  { content: '"Kretage och pletage"' },
+  { content: '"Trampa i klaveret"' },
+  { content: "Linneas nördimitation" },
+  { content: "David pratar om Spanien" },
+  { content: '"Jag har ett namn"' },
+  { content: '"Vad bänkar du?"' },
+  { content: '"Medmera etcetera jadajada"' },
+  { content: '"... är ju mitt hemspråk"' },
+  { content: '"Yao:en som är död"' },
+  { content: '"Någon som har hört?"' },
+  { content: '"Rakt över disk"' },
+  { content: '"Uchäkta"' },
+  { content: '"DONUT, COCA COLA, FANTAAAAAAA"' },
+  { content: '"Säg aldrig så till mig igen"' },
+  { content: '"Vad tycker du om det här samtalet?"' },
+  { content: '"Äh!"' },
+  { content: '"Pågår och berör!"' },
+  { content: '"litrrruaelli"' },
+  { content: '"UPPSALAH!"' },
+];
+
+export const userData = [
+  { id: "296dc23a-e513-45c8-8f4e-38e3ec44b236" },
+  { id: "629a5263-06eb-4cea-a8cd-6a8aadb1e4b9" },
+  { id: "4cbddae2-62b8-4b4e-8e72-2ae3d67d0590" },
+  { id: "81b6e60d-9412-4ed4-a8b8-90a11ff3e854" },
+  { id: "cd8083fb-5991-40da-af4d-9fae38dee0ac" },
+  { id: "c8a68499-bd54-4721-bae2-373db45dbc38" },
+  { id: "774dadad-b6ec-477f-9c96-29330ef285ae" },
+  { id: "98acd0c9-e73e-4c89-9098-625383115163" },
+  { id: "767beaef-4a2d-416f-aeb7-400c58e95fb4" },
+  { id: "65bf24ff-6b74-466f-abed-c9028e670d6f" },
+];
