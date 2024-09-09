@@ -8,6 +8,6 @@
     "forceConsistentCasingInFileNames": true,
     "typeRoots": ["src/types","./node_modules/@types"]
   },
-  "include": ["src/**/*.ts",  "src/types"],
+  "include": ["api/*.ts", "src/**/*.ts",  "src/types" ],
   "exclude": ["node_modules"]
 }

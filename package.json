@@ -6,6 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "./node_modules/typescript/bin/tsc -p tsconfig.build.json",
+    "vercel-build": "echo hello",
     "start": "node dist/server.js",
     "dev": "nodemon --watch 'src/**/*.ts' --exec 'ts-node' src/server.ts",
     "db:migrate": "npx prisma migrate dev",
